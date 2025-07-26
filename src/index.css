@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Vazir"; /* You can choose any name */
+  src: url("/src/fonts/vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Example: use the font globally */
+body {
+  font-family: "Vazir", sans-serif;
+}
